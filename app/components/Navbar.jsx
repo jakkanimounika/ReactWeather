@@ -6,7 +6,7 @@ var {Link, IndexLink} = require('react-router');
       <div>
       <h1>Navbar component</h1>
       <IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Get Weather</IndexLink>
-      <Link to="/vabout" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link>
+      <Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link>
       <Link to="/examples" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Examples</Link>
       </div>
     );
